@@ -1,0 +1,33 @@
+/* ============================================= */
+/*              Footer Section                   */
+/* ============================================= */
+
+footer {
+  background-color: $footer-background;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  border-radius: 0 80px 0 0;
+  margin-top: 80px;
+}
+
+.footer-section {
+  margin-top: 50px;
+}
+
+.footer-ul {
+  color: $white-txt;
+  list-style: none;
+  padding-left: 0;
+  li {
+    color: $footer-txt;
+    margin-bottom: 10px;
+    &:first-child {
+      margin-top: 25px;
+    }
+  }
+}
+
+.attribution {
+  margin-top: 40px;
+}

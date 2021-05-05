@@ -1,0 +1,36 @@
+/* ============================================= */
+/*              Color Variables                  */
+/* ============================================= */
+
+$header-gradient-top: hsl(13, 100%, 72%);
+$header-gradient-bottom: hsl(353, 100%, 62%);
+$blue-gradient-top: hsl(237, 17%, 21%);
+$blue-gradient-bottom: hsl(237, 23%, 32%);
+$footer-background: hsl(240, 10%, 16%);
+$white-txt: #fff;
+$footer-txt: hsl(240, 2%, 79%);
+$body-txt: hsl(207, 13%, 34%);
+$heading-txt: hsl(208, 49%, 24%);
+$cta-color-red: hsl(356, 100%, 66%);
+
+// Buttons
+// $default: $default-btn-color;
+
+// Button lighten affect
+// $default-lighten: lighten($default, 15%);
+// $error-lighten: lighten($error, 15%);
+// $info-lighten: lighten($info, 15%);
+// $success-lighten: lighten($success, 15%);
+// $warning-lighten: lighten($warning, 15%);
+
+/* ============================================= */
+/*              Media Query Variables                      */
+/* ============================================= */
+
+$breakpoint: 768px;
+
+/* ============================================= */
+/*              Layout Variables                      */
+/* ============================================= */
+
+$max-width: 14000px;
