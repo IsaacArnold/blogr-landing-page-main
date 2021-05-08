@@ -581,7 +581,7 @@ main {
     padding-top: 200px;
   }
 }
-@media (min-width: 425px) {
+@media (min-width: 405px) {
   .blue-section .blue-info-container {
     padding-top: 255px;
   }
