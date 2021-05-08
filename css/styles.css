@@ -599,6 +599,32 @@ main {
   }
 }
 
+@media (min-width: 1024px) {
+  .designed {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px auto auto;
+    grid-template-areas: "heading heading" "intro image" "robust image";
+  }
+  .designed h2 {
+    grid-area: heading;
+  }
+  .designed #intro {
+    grid-area: intro;
+    text-align: left;
+  }
+  .designed #intro h3 {
+    margin-left: 50px;
+  }
+  .designed #robust {
+    grid-area: robust;
+    text-align: left;
+  }
+  .designed #robust h3 {
+    margin-left: 50px;
+  }
+}
+
 .content-section {
   position: relative;
   z-index: 6;

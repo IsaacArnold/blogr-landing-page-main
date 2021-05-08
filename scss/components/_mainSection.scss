@@ -7,11 +7,6 @@ main {
   margin-top: 80px;
 }
 
-// section {
-//   //   margin: 0px 25px;
-//   //   padding-top: 80px;
-// }
-
 .illustration-mobile-container {
   margin: 30px 0;
 }
@@ -21,6 +16,35 @@ main {
   width: 100%;
   @media (min-width: 768px) {
     width: 70%;
+  }
+}
+
+.designed {
+  @media (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px auto auto;
+    grid-template-areas:
+      "heading heading"
+      "intro image"
+      "robust image";
+    h2 {
+      grid-area: heading;
+    }
+    #intro {
+      grid-area: intro;
+      text-align: left;
+      h3 {
+        margin-left: 50px;
+      }
+    }
+    #robust {
+      grid-area: robust;
+      text-align: left;
+      h3 {
+        margin-left: 50px;
+      }
+    }
   }
 }
 
