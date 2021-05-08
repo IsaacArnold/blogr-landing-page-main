@@ -9,6 +9,36 @@ nav {
 
 .laptop-nav {
   display: none;
+  @media (min-width: 1024px) {
+    display: flex;
+    align-items: center;
+    margin: 50px 100px;
+  }
+  .laptop-nav-ul {
+    display: flex;
+    padding-left: 0;
+    li {
+      list-style-type: none;
+      margin-left: 50px;
+      color: $white-txt;
+    }
+    ul {
+      display: none;
+      li {
+        list-style-type: none;
+      }
+    }
+  }
+  .laptop-nav-cta {
+    margin-left: auto;
+    .btn {
+      border: none;
+      color: $white-txt;
+    }
+    .white-btn {
+      padding: 15px 30px;
+    }
+  }
 }
 
 .logo-hamburger {
@@ -16,6 +46,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 50px 20px 10px;
+  @media (min-width: 1024px) {
+    display: none;
+  }
 }
 
 .mobile-nav {
@@ -32,6 +65,9 @@ nav {
   // Sets the default position of overlay to off-screen
   transform: translateY(-100%);
   transition: transform 0.5s;
+  @media (min-width: 1024px) {
+    display: none;
+  }
   .mobile-nav-ul {
     display: flex;
     flex-direction: column;
