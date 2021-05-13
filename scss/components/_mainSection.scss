@@ -45,22 +45,29 @@ main {
       grid-area: laptop;
       position: absolute;
       top: -68px;
+      right: -38%;
+      @media (min-width: 1440px) {
+        right: -25%;
+      }
+      @media (min-width: 1700px) {
+        right: -1%;
+      }
       .editor-laptop {
-        width: 150%;
+        width: 768px;
       }
     }
     #intro {
       grid-area: intro;
       text-align: left;
       h3 {
-        margin-left: 50px;
+        margin-left: 100px;
       }
     }
     #robust {
       grid-area: robust;
       text-align: left;
       h3 {
-        margin-left: 50px;
+        margin-left: 100px;
       }
     }
   }
@@ -86,6 +93,9 @@ main {
     flex-direction: row-reverse;
     margin: 180px 0;
   }
+  @media (min-width: 1440px) {
+    margin: 280px 0;
+  }
   .illustration-phones {
     width: 100%;
     position: absolute;
@@ -93,14 +103,19 @@ main {
     left: 0px;
     z-index: 7;
     @media (min-width: 768px) {
-      width: 70%;
-      top: -302px;
-      left: 100px;
+      width: 425px;
+      top: -190px;
+      left: 160px;
     }
     @media (min-width: 1024px) {
-      width: 44%;
+      width: 450px;
       top: -61px;
       left: 35px;
+    }
+    @media (min-width: 1440px) {
+      width: 432px;
+      top: -51px;
+      left: 123px;
     }
   }
   .blue-info-container {
@@ -129,7 +144,7 @@ main {
         margin-left: auto;
         width: 50%;
         h2 {
-          margin-left: 50px;
+          margin-left: 100px;
           font-size: 2em;
         }
       }
@@ -150,9 +165,71 @@ main {
       top: -580px;
       left: -284px;
     }
+    @media (min-width: 1440px) {
+      width: 71%;
+    }
   }
 }
 
 .laptop-container {
   margin: 40px 0;
+  .illustration-laptop {
+    @media (min-width: 1024px) {
+      display: none;
+    }
+  }
+  .illustration-laptop-laptop {
+    display: none;
+    @media (min-width: 1024px) {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+.grid-two {
+  @media (min-width: 1024px) {
+    margin-bottom: 100px;
+    margin-top: 250px;
+    padding-bottom: 100px;
+  }
+  .laptop-container {
+    grid-area: img;
+    @media (min-width: 1024px) {
+      position: absolute;
+      width: 800px;
+      top: -166px;
+      left: -271px;
+    }
+    @media (min-width: 1440px) {
+      width: 840px;
+    }
+  }
+  #free {
+    grid-area: free;
+    @media (min-width: 1024px) {
+      text-align: left;
+      h2 {
+        margin-left: 100px;
+      }
+    }
+  }
+  #powerful {
+    grid-area: powerful;
+    @media (min-width: 1024px) {
+      text-align: left;
+      h2 {
+        margin-left: 100px;
+      }
+    }
+  }
+  @media (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "img free"
+      "img powerful";
+    position: relative;
+  }
 }
