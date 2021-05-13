@@ -467,6 +467,9 @@ nav {
 .laptop-nav .laptop-nav-cta .white-btn {
   padding: 15px 30px;
 }
+.laptop-nav .chevron {
+  margin-left: 10px;
+}
 
 .logo-hamburger {
   display: flex;
