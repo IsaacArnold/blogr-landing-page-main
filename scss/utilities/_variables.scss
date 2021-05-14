@@ -13,25 +13,5 @@ $body-txt: hsl(207, 13%, 34%);
 $heading-txt: hsl(208, 49%, 24%);
 $cta-color-red: hsl(356, 100%, 66%);
 
-// Buttons
-// $default: $default-btn-color;
-
 // Button lighten affect
 $cta-color-red-lighten: lighten($cta-color-red, 7%);
-// $default-lighten: lighten($default, 15%);
-// $error-lighten: lighten($error, 15%);
-// $info-lighten: lighten($info, 15%);
-// $success-lighten: lighten($success, 15%);
-// $warning-lighten: lighten($warning, 15%);
-
-/* ============================================= */
-/*              Media Query Variables                      */
-/* ============================================= */
-
-$breakpoint: 768px;
-
-/* ============================================= */
-/*              Layout Variables                      */
-/* ============================================= */
-
-$max-width: 14000px;
