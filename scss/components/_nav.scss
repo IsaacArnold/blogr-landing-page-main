@@ -53,6 +53,10 @@ nav {
     .btn {
       border: none;
       color: $white-txt;
+      &:hover {
+        background-color: #fff;
+        color: $cta-color-red;
+      }
     }
     .white-btn {
       padding: 15px 30px;

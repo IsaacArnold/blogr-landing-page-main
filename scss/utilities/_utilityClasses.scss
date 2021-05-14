@@ -12,6 +12,10 @@
   padding: 15px 20px;
   border-radius: 30px;
   cursor: pointer;
+  &:hover {
+    background-color: $cta-color-red-lighten;
+    color: $white-txt;
+  }
 }
 
 .btn {
@@ -20,6 +24,10 @@
   border-radius: 30px;
   padding: 15px 20px;
   cursor: pointer;
+  &:hover {
+    background-color: #fff;
+    color: $cta-color-red;
+  }
 }
 
 .info {

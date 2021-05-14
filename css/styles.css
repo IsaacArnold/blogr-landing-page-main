@@ -21,6 +21,10 @@
   border-radius: 30px;
   cursor: pointer;
 }
+.white-btn:hover {
+  background-color: #ff757e;
+  color: #fff;
+}
 
 .btn {
   background-color: transparent;
@@ -28,6 +32,10 @@
   border-radius: 30px;
   padding: 15px 20px;
   cursor: pointer;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #ff525d;
 }
 
 .info {
@@ -480,6 +488,10 @@ nav {
 .laptop-nav .laptop-nav-cta .btn {
   border: none;
   color: #fff;
+}
+.laptop-nav .laptop-nav-cta .btn:hover {
+  background-color: #fff;
+  color: #ff525d;
 }
 .laptop-nav .laptop-nav-cta .white-btn {
   padding: 15px 30px;
