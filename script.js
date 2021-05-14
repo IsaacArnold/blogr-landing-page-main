@@ -13,6 +13,7 @@ laptopLink.forEach((link) => {
     console.log(e.target);
     if (e.target === chevron || e.target === link) {
       linkUl.classList.toggle("hide");
+      chevron.classList.toggle("chevron-up");
     }
   });
 });
