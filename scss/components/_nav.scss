@@ -88,7 +88,7 @@ nav {
   right: 0;
   bottom: 0;
   // width: 70%;
-  // z-index: 3;
+  // z-index: 1000;
   background-color: #fff;
   padding: 20px 0;
   border-radius: 10px;
@@ -126,6 +126,26 @@ nav {
     margin: 15px auto;
     li {
       font-size: initial;
+    }
+  }
+  .mobile-nav-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .btn {
+      padding: 15px 40px;
+    }
+    .gradient-button {
+      background: linear-gradient(
+        to right,
+        $header-gradient-top,
+        $header-gradient-bottom
+      );
+      color: $white-txt;
+      padding: 15px 40px;
+      border-radius: 30px;
+      cursor: pointer;
     }
   }
 }

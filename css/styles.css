@@ -560,6 +560,22 @@ nav {
 .mobile-nav .ul-dropdown li {
   font-size: initial;
 }
+.mobile-nav .mobile-nav-cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-nav .mobile-nav-cta .btn {
+  padding: 15px 40px;
+}
+.mobile-nav .mobile-nav-cta .gradient-button {
+  background: linear-gradient(to right, #ff8f70, #ff3d54);
+  color: #fff;
+  padding: 15px 40px;
+  border-radius: 30px;
+  cursor: pointer;
+}
 
 /* ============================================= */
 /*              Header Section                   */
