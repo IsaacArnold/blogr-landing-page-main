@@ -4,6 +4,7 @@ Global Variables
 const laptopLink = document.querySelectorAll(".laptop-link");
 const hamburgerNavDiv = document.querySelector(".logo-hamburger");
 const hamburgerIcon = hamburgerNavDiv.querySelector(".hamburger");
+const closeIcon = hamburgerNavDiv.querySelector(".close");
 const mobileNav = document.querySelector(".mobile-nav");
 const mobileLink = document.querySelectorAll(".mobile-link");
 
@@ -26,8 +27,15 @@ laptopLink.forEach((link) => {
 hamburgerNavDiv.addEventListener("click", (e) => {
   if (e.target === hamburgerIcon) {
     console.log("success");
-    mobileNav.classList.toggle("hide");
     console.log(mobileNav);
+    mobileNav.classList.toggle("hide");
+    closeIcon.classList.toggle("hide");
+    hamburgerIcon.classList.toggle("hide");
+  }
+  if (e.target === closeIcon) {
+    mobileNav.classList.toggle("hide");
+    closeIcon.classList.toggle("hide");
+    hamburgerIcon.classList.toggle("hide");
   }
 });
 
