@@ -458,6 +458,42 @@ nav {
   margin-left: 50px;
   color: #fff;
   position: relative;
+  display: inline-block;
+}
+.laptop-nav .laptop-nav-ul a {
+  color: #fff;
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 8px;
+}
+.laptop-nav .laptop-nav-ul a:before, .laptop-nav .laptop-nav-ul a:after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #fff;
+}
+.laptop-nav .laptop-nav-ul a:before {
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+}
+.laptop-nav .laptop-nav-ul a:after {
+  opacity: 0;
+  transform: translateY(4px);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
+.laptop-nav .laptop-nav-ul a:hover:before, .laptop-nav .laptop-nav-ul a:hover:after, .laptop-nav .laptop-nav-ul a:active:before, .laptop-nav .laptop-nav-ul a:active:after {
+  opacity: 1;
+  transform: translateY(0);
+}
+.laptop-nav .laptop-nav-ul a:hover:before, .laptop-nav .laptop-nav-ul a:active:before {
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
+.laptop-nav .laptop-nav-ul a:hover:after, .laptop-nav .laptop-nav-ul a:active:after {
+  transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
 }
 .laptop-nav .laptop-nav-ul ul li {
   list-style-type: none;

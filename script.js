@@ -13,10 +13,11 @@ Event Listeners
 =====================================*/
 // Desktop navigation
 laptopLink.forEach((link) => {
+  let a = link.querySelector("a");
   let chevron = link.querySelector(".chevron");
   let linkUl = link.querySelector(".laptop-link-ul");
   link.addEventListener("click", (e) => {
-    if (e.target === chevron || e.target === link) {
+    if (e.target === chevron || e.target === a) {
       linkUl.classList.toggle("hide");
       chevron.classList.toggle("chevron-up");
     }

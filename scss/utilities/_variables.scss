@@ -15,3 +15,8 @@ $cta-color-red: hsl(356, 100%, 66%);
 
 // Button lighten affect
 $cta-color-red-lighten: lighten($cta-color-red, 7%);
+
+// Laptop hover animations - code from: https://codepen.io/devilishalchemist/pen/ZYLZay
+$duration: 0.2s;
+$distance: 8px;
+$easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
