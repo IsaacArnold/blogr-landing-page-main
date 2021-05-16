@@ -576,6 +576,11 @@ nav {
   border-radius: 30px;
   cursor: pointer;
 }
+.mobile-nav .mobile-nav-cta .line {
+  border-top: 2px solid #f1f1f1;
+  width: 90%;
+  margin-bottom: 10px;
+}
 
 /* ============================================= */
 /*              Header Section                   */

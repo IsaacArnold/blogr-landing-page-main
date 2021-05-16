@@ -26,8 +26,6 @@ laptopLink.forEach((link) => {
 // Mobile navigation
 hamburgerNavDiv.addEventListener("click", (e) => {
   if (e.target === hamburgerIcon) {
-    console.log("success");
-    console.log(mobileNav);
     mobileNav.classList.toggle("hide");
     closeIcon.classList.toggle("hide");
     hamburgerIcon.classList.toggle("hide");
