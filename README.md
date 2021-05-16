@@ -11,10 +11,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -33,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/IsaacArnold/blogr-landing-page-main)
-- Live Site URL: [Add live site URL here](https://isaacarnold.dev/blogr-landing-page-main/)
+- Solution URL: [https://github.com/IsaacArnold/blogr-landing-page-main](https://github.com/IsaacArnold/blogr-landing-page-main)
+- Live Site URL: [https://isaacarnold.dev/blogr-landing-page-main/](https://isaacarnold.dev/blogr-landing-page-main/)
 
 ## My process
 
