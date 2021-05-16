@@ -33,6 +33,10 @@ footer {
   li {
     color: $footer-txt;
     margin-bottom: 10px;
+    &:hover,
+    &:active {
+      text-decoration: underline;
+    }
     &:first-child {
       margin-top: 25px;
     }
